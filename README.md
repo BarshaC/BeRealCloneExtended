@@ -29,7 +29,8 @@ The following **additional** features are implemented:
 I had to change the color of the loading indicator to match the theme of the app. I also enabled the camera option which only works for physical iphones. Users can drag photos to add to the photo library.
 
 ## Video Walkthrough
-![Kapture 2024-03-08 at 02 09 19](https://github.com/BarshaC/BeRealClone/assets/64405568/ad63757b-c04c-48f5-8c83-468740d691d6)
+
+https://github.com/BarshaC/BeRealClone/assets/64405568/02feceae-8256-4841-a1b9-3e5d739e13ec
 
 ## Notes
 
