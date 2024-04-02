@@ -119,8 +119,30 @@ class PostFeedViewController: UIViewController, PHPickerViewControllerDelegate {
                 switch result {
                 case .success(let post):
                     print("Post Saved! \(post)")
+                    if var currentUser = User.current {
+
+                        // Update the `lastPostedDate` property on the user with the current date.
+                        currentUser.lastPostedDate = Date()
+
+                        // Save updates to the user (async)
+                        currentUser.save { [weak self] result in
+                            switch result {
+                            case .success(let user):
+                                print("✅ User Saved! \(user)")
+
+                                // Switch to the main thread for any UI updates
+                                DispatchQueue.main.async {
+                                    // Return to previous view controller
+                                    self?.navigationController?.popViewController(animated: true)
+                                }
+
+                            case .failure(let error):
+                                self?.showAlert(description: error.localizedDescription)
+                            }
+                        }
+                    }
                     
-                    self?.navigationController?.popViewController(animated: true)
+//                    self?.navigationController?.popViewController(animated: true)
                 case .failure(let error):
                     self?.showAlert(description: error.localizedDescription)
                 }

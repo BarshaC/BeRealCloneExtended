@@ -6,10 +6,12 @@
 	<string>Use image in for the app</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Enable picking image</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Enable use of microphone</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
+		<true/>
 		<key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>

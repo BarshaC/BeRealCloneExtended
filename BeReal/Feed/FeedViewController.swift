@@ -51,6 +51,7 @@ class FeedViewController: UIViewController{
     }
     
     
+    
     @IBAction func onLogOutTapped(_ sender: Any) {
         showConfirmLogoutAlert()
         
