@@ -30,10 +30,9 @@ This app could be motified as follows:
 1. Technical Development: Ensure to develop user-friendly app that meets the diverse need of the students while ensuring scalbility, security and compatability across different platforms and devices.
 2. User Engagement: Encouraging active user engagement because students might prefer other social media platforms like GroupMe, Facebook, Instagram to connect with other internationals students on campus.
 3. Cultural Sensitivity: Addressing cultural nuances and sensetivities to ensure that app's features are inclusive and respectful of diverse cultural backgrounds and perspectives.
-4. Time Constraints: 
+4. Time Constraints: To work on project that enables individuals users have one-on-one conversation,this might involve a lot of technical work.Also, to ensure user security of the user information and data could be a huge challange. With the less time, those security measures cannot be implemented.
 
 
-*Still thinking about more of the challanges*
 
 # App Idea 2: RacePulse
 
