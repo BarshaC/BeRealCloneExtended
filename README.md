@@ -1,4 +1,4 @@
-# Project 6 - *BeReale*
+# Project 6 - *BeReal*
 
 Submitted by: **Barsha Chaudhary**
 
